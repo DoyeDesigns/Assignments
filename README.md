@@ -1,3 +1,2 @@
-#  Assignments
-
-I used HTML and CSS to  create my portfolio and a registration form
+# Week 3 tasks
+## I created my potfolio and a registration form, login form and a success page for the forms
