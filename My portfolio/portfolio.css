@@ -27,12 +27,19 @@ body{
     padding: 10px 0px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
+.logo{
+    /* margin-left: 1.875rem; */
+    margin-left: 10%;
+}
+nav{
+   margin-right: 5%;
+}
 .nav-links li{
     display: inline-block;
     padding: 0 10px;
      
 }
-ul{
+.nav-links ul{
     list-style-type: none;
 }
 header a{
@@ -40,7 +47,8 @@ header a{
 }
 .profile-pic{
     width: 300px;
-    height: 350px;
+    height: 300px;
+    border-radius: 50%;
 }
 .section1{
     display: flex;
@@ -51,7 +59,7 @@ header a{
     margin-top: 20px;
     width: 100%;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 6.25rem;
     
 }
 .bio{
@@ -63,21 +71,57 @@ header a{
 .bio-title{
     margin-bottom: 10px;
 }
+.portfolio-btn {
+    margin-top: .625rem;
+    padding: .3125rem .625rem;
+    background-color: #A07BE5;
+    border: 2px solid #A07BE5;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.portfolio-btn:hover{
+    background-color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+}
 .more-about{
     padding: 10px 20px;
     margin: auto;
     margin-bottom: 30px;
     width: 80%;
+    margin-bottom: 1.875rem;
 }
 .more-about h2{
     text-align: center;
+    margin-bottom: .625rem;
+}
+.more-about h4 {
+    margin-top: 1.25rem;
+    margin-bottom: .1875rem;
+}
+.services{
+    margin: auto;
+    padding: .625rem 1.25rem;
+    width: 80%;
+    margin-bottom: 3.125rem;
+}
+.services h2 {
+    text-align: center;
     margin-bottom: 10px;
+}
+.services p{
+    text-align: left;
 }
 .skills{
     margin: auto;
     margin-bottom: 30px;
     width: 80%;
     text-align: center;
+    margin-bottom: 3.125rem;
 }
 .skill-header{
     margin-bottom: 10px;
@@ -96,6 +140,7 @@ header a{
 .projects{
     margin: auto;
     margin-bottom: 30px;
+    margin-bottom: 3.125rem;
 }
 .projects-title{
     margin-bottom: 10px;
